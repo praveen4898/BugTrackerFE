@@ -14,6 +14,7 @@ const Tracker = () => {
           }
         };
 
+        
         const response = await axios.get('https://bugtracker-jm8k3ia48-praveenkumars-projects.vercel.app/bug', config);
         
         setBugData(response.data);
