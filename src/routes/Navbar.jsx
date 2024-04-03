@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div>
-        
-        <Link to="/signup" >signup</Link>
-        <Link to="/login">login</Link>
-        <Link to="/tracker">tracker</Link>
+    <div className="bg-gray-200 p-4">
+      <Link to="/signup" className="mr-4">Signup</Link>
+      <Link to="/login" className="mr-4">Login</Link>
+      <Link to="/tracker">Tracker</Link>
     </div>
   )
 }
+
 
 export default Navbar
